@@ -1,0 +1,29 @@
+    1  cd ~
+    2  mkdir ~/Q2_ENV
+    3  ls -ld ~/Q2_ENV
+    4  python3 --version
+    5  cd ~/Q2_ENV
+    6  python3 -m venv venv
+    7  source venv/bin/activate
+    8  source ~/Q2_ENV/venv/bin/activate
+    9  pip install numpy
+   10  python -c "import numpy; print(numpy.__version__)"
+   11  cd ~/Work_Course_Linux
+   12  mkdir Q2
+   13  cp ~/Work_Course_Linux/DOWNLOADS/py1.py Q2/
+   14  find ~/Work_Course_Linux/DOWNLOADS -name "py1.py"
+   15  cp ~/Work_Course_Linux/DOWNLOADS/LINUX_COURSE_WORK-downloads/py1.py ~/Work_Course_Linux/Q2/
+   16  ls -l ~/Work_Course_Linux/Q2/
+   17  chmod 755 ~/Work_Course_Linux/Q2/py1.py
+   18  python ~/Work_Course_Linux/Q2/py1.py > ~/Work_Course_Linux/Q2/q2_output.txt
+   19  cat ~/Work_Course_Linux/Q2/q2_output.txt
+   20  cd ~/Work_Course_Linux/Q2
+   21  touch requirements.txt
+   22  source ~/Q2_ENV/venv/bin/activate
+   23  pip freeze > requirements.txt
+   24  cat requirements.txt
+   25  pip install -r requirements.txt
+   26  nano ~/Work_Course_Linux/Q2/py1.py
+   27  python ~/Work_Course_Linux/Q2/py1.py >> ~/Work_Course_Linux/Q2/q2_output.txt
+   28  cat ~/Work_Course_Linux/Q2/q2_output.txt
+   29  history > ~/Work_Course_Linux/Q2/linux_history.txt
